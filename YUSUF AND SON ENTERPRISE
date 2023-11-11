@@ -1,0 +1,17 @@
+print('''
+WELCOME TO YUSUF AND SONS ENTERPRISE...
+
+KINDLY ANSWER THE QUESTIONS BELOW ACCURATELY
+THANK YOU''')
+print('To find the Simple and Compound Interest')
+principal =  float(input(' Enter Principal amount in $ : '))
+rate = float(input('Enter rate in % : '))
+time = float(input('Enter number of time spent : '))
+simple_interest = int(principal) * int(rate) * int(time)/ 100
+compound_interest = int(principal) * (int(1 + rate/100)* int(time - 1))
+print(f'simple interest = {simple_interest}')
+print(f'compound interest = {compound_interest}')
+print('''
+ THANKYOU FOR YOUR TIME
+HAVE A NICE DAY!!!
+''')
